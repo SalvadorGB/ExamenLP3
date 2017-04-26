@@ -38,7 +38,7 @@ public class ExaMain extends AppCompatActivity {
                     startActivity(frm);
 
                 }else {
-                    Toast.makeText(getApplicationContext(), "Usuario incorrecto. Intente de nuevo",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Usuario incorrecto. Pruebe con Usuario: admin, clave:123",Toast.LENGTH_SHORT).show();
                 }
 
             }
